@@ -1,0 +1,176 @@
+li {
+    list-style: none;
+    margin: 8px;
+}
+/* body{
+    margin: 0;
+    padding: 0;
+} */
+ul{
+    padding-left: 0;
+}
+h1{
+    text-align: center;
+}
+
+body{
+    /* font-family:'Source Sans Pro', sans-serif; */
+    background-color: #F5F5F7;
+    padding: 0;
+    margin: 0;  
+}
+
+.fa-star{
+    color:#FFC008;
+}
+
+a{text-decoration: none; color:white}
+a:visited{text-decoration: none;}
+/* common */
+
+/* 새로운 header */
+header{
+    display: flex;
+    background-color: #333;
+}
+nav.navbar{
+    width: 100%;
+    height: 70px;
+    background-color: #333;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    /* position: fixed; */
+}
+nav>div>a.navbar-brand{
+    margin-left: 3%;
+}
+i.fa-house{
+    font-size: 20px;
+    line-height: 40px;
+}
+nav>div>button>span i{
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    line-height: 40px;
+}
+nav>div>*:nth-child(3){
+   border-radius: 10px;
+   justify-content: center;
+   border-radius: 10px;
+   /* overflow: hidden; */
+}
+nav>div>*:nth-child(3)>ul{
+    background-color: #333;
+   text-align: center;
+   margin-right: 10px;
+}
+nav>div>*:nth-child(3)>ul>li>*:nth-child(2){
+    text-align: center;
+}
+nav>div>*:nth-child(3)>ul>li:hover{
+    background-color: grey;
+    border-radius: 10px;
+}
+
+/* body - main */
+.title p {
+    justify-content: center;
+    text-align: center;
+    margin: 20px
+}
+
+.title span {
+    color: #0066cc;
+}
+
+.accommodation{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    max-width: 1020px;
+    margin: 30px auto;
+}
+.stay{
+    /* margin: 0 auto; */
+    text-align: center;
+    margin: 0 20px;
+    width: 300px;
+    height: 1500px;
+}
+.top>img{
+    height: 200px;
+    width: 100%;
+    border-radius: 10px;
+    /* 여러분 제 개인적인 생각인데요 .top의 20%가 되는 것 같아요 */
+    /* border: 1px solid #000; */
+    /* justify-content: center; */
+    /* margin: 0 auto; */
+}
+.top div{
+    margin: 20px;
+}
+.top *:nth-child(2){
+    font-size: larger;
+    font-weight: bolder;
+}
+.top i{
+    font-size: smaller;
+}
+.top *:nth-child(5){
+    background-color: #0171E3;
+    border: 1px solid #0171E3;
+    border-radius: 10px;
+    color: white;
+    font-size: smaller;
+    margin-bottom: 20px;
+    /* margin: 0 auto; */
+}
+
+.top *:nth-child(7){
+    background-color: #F5F5F7;
+    border: none;
+    color: #0171E3;
+    font-size: small;
+}
+.bottom div{
+    margin: 60px;
+}
+.bottom *:nth-child(4) button{
+    background-color: #0171E3;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid #0171E3;
+}
+
+footer {
+    width: 100%;
+    height: 70px;
+    /* border: 1px solid #000; */
+    display: flex;
+    justify-content: space-between;
+    line-height: 70px;
+    padding: 0 10px;
+    background-color: #333;
+    color: white;
+}
+
+.footer-left {
+    display: flex;
+}
+
+.footer-left div {
+    margin-right: 20px;
+}
+
+.footer-right {
+    margin-right: 0px;
+    display: flex;
+}
+.footer-right>div{
+    margin-right: 8px;
+}
+.SNS i {
+    margin: 0 5px;
+}
